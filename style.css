@@ -1,0 +1,171 @@
+.navbar-brand{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Navbar{
+    position: absolute;
+    padding: 1% 6%;
+    z-index: 2;
+    width: 100%;
+}
+
+.nav-link{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(111, 115, 120);
+    font-weight: bold;
+}
+
+.signin-btn{
+    width: 70px;
+    padding-top: 1%;
+}
+
+#carousel-img{
+    z-index: 1;
+}
+
+.home-img{
+    width: 100%;
+    height: 680px;
+}
+
+#features{
+    padding: 5%;
+    background-color:  rgb(114, 107, 107);
+}
+
+.features-box{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+h3{
+    text-align: center;
+}
+
+h5{
+    display: inline;
+}
+
+h2,h3,h5{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#AboutUs{
+    padding: 5%;
+    text-align: justify;
+    background-color:rgb(141, 138, 138);
+}
+
+.aboutus-img{
+    padding: 8% 5%;
+    width: 100%;
+    
+}
+
+.aboutus-content p{
+    padding: 10% 10%;
+  
+}
+
+#Place{
+    padding: 5% 7%;
+}
+
+.card-place{
+    padding-bottom: 7%;
+    text-align: left;
+    background-color: rgb(202, 202, 202);
+    border-radius: 20px;
+}
+
+.card-place:hover{
+    color:rgb(175, 54, 54);
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 250px;
+}
+
+
+#Reviews{
+    padding: 5% 7%;
+    background-color: rgb(149, 144, 144);
+}
+
+.card-review{
+    padding-bottom: 7%;
+    text-align: left;
+}
+
+
+
+#form{
+    padding: 5% 30%;
+}
+
+form{
+    border: 2px solid black;
+    border-radius: 20%;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(82, 74, 74);
+    padding-bottom: 5%;
+}
+
+.form-input{
+    padding: 5% 30%;
+    width: 100%;
+}
+
+form button{
+    width: 20%;
+    margin-left: 37%;
+}
+
+footer{
+    background-color: rgb(140, 140, 140);
+    text-align: center;
+    padding: 3% 5%;
+}
+
+.footer-icon{
+    padding: .5% .5%;
+} 
+
+footer>p{
+    margin-bottom: 0px;
+}
+
+@media(max-width: 960px){
+    h2{
+        padding-bottom: 0px;
+    }
+    .home-img{
+        width: 100%;
+        height: 251px;
+    }
+    .aboutus-img{
+        padding-bottom: 0px;
+    }
+    .aboutus-para{
+        padding-top: 0px;
+    }
+    
+    #form{
+       padding: 4% 10% !important;
+    }
+    .form-input{
+        padding: 4% 10% !important;
+        margin: 0px !important;
+    }
+    form button{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
